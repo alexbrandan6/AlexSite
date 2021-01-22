@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+@import url(header.css);
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.content {
+    padding: 100px;
+}
+
+@media screen and (max-width: 500px) {
+    .content {
+        padding-top: 250px;
+    }
+}
