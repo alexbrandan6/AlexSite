@@ -1,7 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="js/functions.js">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     </head>
     <body>
         <div class="header">
@@ -19,6 +24,7 @@
         <section id="introduction">
             <div class="content">
                 <h1>Introducción</h1>
+                <div class="row border"></div>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore provident neque minima itaque ducimus molestias dicta ab in odio distinctio temporibus ipsam perspiciatis fuga ratione, possimus veritatis at quis officiis.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore provident neque minima itaque ducimus molestias dicta ab in odio distinctio temporibus ipsam perspiciatis fuga ratione, possimus veritatis at quis officiis.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore provident neque minima itaque ducimus molestias dicta ab in odio distinctio temporibus ipsam perspiciatis fuga ratione, possimus veritatis at quis officiis.
@@ -35,6 +41,7 @@
         <section id="aboutMe">
             <div class="content">
                 <h1>Sobre mí</h1>
+                <div class="row border"></div>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore provident neque minima itaque ducimus molestias dicta ab in odio distinctio temporibus ipsam perspiciatis fuga ratione, possimus veritatis at quis officiis.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore provident neque minima itaque ducimus molestias dicta ab in odio distinctio temporibus ipsam perspiciatis fuga ratione, possimus veritatis at quis officiis.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore provident neque minima itaque ducimus molestias dicta ab in odio distinctio temporibus ipsam perspiciatis fuga ratione, possimus veritatis at quis officiis.
@@ -51,6 +58,7 @@
         <section id="technology">
             <div class="content">
                 <h1>Tecnología</h1>
+                <div class="row border"></div>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore provident neque minima itaque ducimus molestias dicta ab in odio distinctio temporibus ipsam perspiciatis fuga ratione, possimus veritatis at quis officiis.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore provident neque minima itaque ducimus molestias dicta ab in odio distinctio temporibus ipsam perspiciatis fuga ratione, possimus veritatis at quis officiis.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore provident neque minima itaque ducimus molestias dicta ab in odio distinctio temporibus ipsam perspiciatis fuga ratione, possimus veritatis at quis officiis.
@@ -67,6 +75,7 @@
         <section id="study">
             <div class="content">
                 <h1>Estudios</h1>
+                <div class="row border"></div>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore provident neque minima itaque ducimus molestias dicta ab in odio distinctio temporibus ipsam perspiciatis fuga ratione, possimus veritatis at quis officiis.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore provident neque minima itaque ducimus molestias dicta ab in odio distinctio temporibus ipsam perspiciatis fuga ratione, possimus veritatis at quis officiis.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore provident neque minima itaque ducimus molestias dicta ab in odio distinctio temporibus ipsam perspiciatis fuga ratione, possimus veritatis at quis officiis.
@@ -83,6 +92,7 @@
         <section id="experience">
             <div class="content">
                 <h1>Experiencia</h1>
+                <div class="row border"></div>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore provident neque minima itaque ducimus molestias dicta ab in odio distinctio temporibus ipsam perspiciatis fuga ratione, possimus veritatis at quis officiis.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore provident neque minima itaque ducimus molestias dicta ab in odio distinctio temporibus ipsam perspiciatis fuga ratione, possimus veritatis at quis officiis.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore provident neque minima itaque ducimus molestias dicta ab in odio distinctio temporibus ipsam perspiciatis fuga ratione, possimus veritatis at quis officiis.
@@ -99,20 +109,15 @@
         <section id="contact">
             <div class="content">
                 <h1>Contacto</h1>
+                <div class="row border"></div>
                 <div class="container">
-                    <div class="row border">
-                        <div class="col-12 pt-2">
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="txtEmail" placeholder="ejemplo@ejemplo.com">
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Texto</label>
-                                <textarea class="form-control" id="txtTexto" rows="3"></textarea>
-                            </div>
+                    <div class="row pt-2">
+                        <div class="col-1">
+                            <h1><a href="mailto:alexbrandan6@gmail.com?Subject=Contacto%20desde%20pagina%20AlexSite" target="_blank" class="icon-gmail"></a></h1>
                         </div>
-                        <div class="col-12 d-flex justify-content-center pb-2">
-                            <button type="button" class="btn btn-outline-dark" onclick="EnviarMail()" />Enviar</button>
+
+                        <div class="col-1">
+                            <h1><a href="https://www.linkedin.com/in/alexbrandan06/" target="_blank" class="icon-linkedin-squared"></a></h1>
                         </div>
                     </div>
                 </div>
@@ -120,6 +125,3 @@
         </section>
     </body>
 </html>
-
-<link rel="stylesheet" href="css/styles.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
